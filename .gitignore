@@ -1,0 +1,8 @@
+for f in $(git status --porcelain | grep '^??' | sed 's/^?? //');
+do     test -L "$f" &amp;&amp;
+echo $f >>
+.gitignore;
+# add symlinks     test -d "$f" &amp;&amp;
+echo $f* >>
+.gitignore;
+# add new directories as well done
